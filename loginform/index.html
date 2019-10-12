@@ -1,0 +1,52 @@
+<!--HTML code for login page-->
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Login form</title>
+   <!--start of style-->
+      <style>
+      input[type=text]{
+        width:50%;
+        padding: 5px 5px;
+        margin: 5px 0;
+        }
+      input[type=password]{
+        width:50%;
+        padding: 5px 5px;
+        margin: 5px 0;
+        }
+      input[type=submit]{
+        width:30%;
+        padding:  10px 20px;
+        margin: 15px 0;
+        background-color: lightgreen;
+        }
+      .login{
+          border:2px solid grey;
+          background-color: #E6E6FA;
+          width:30%;
+          margin-right:20;
+          padding-top: 1%;
+          padding-left: 1%;
+          padding-right: 1%;
+          margin-left: 20%;
+          margin-top: 5%
+          }
+      </style>
+      <!--end of style-->
+  </head>
+  <body>
+    <!--start of form-->
+    <form>
+       <div class="login">
+         <h1><center>Login Form</h1></center>
+           <p>
+             <label>Username:<input type="text" name="uname" placeholder="Username" required="required"/></label><br>
+             <label>Password:<input type="password" name="password" placeholder="Password" required="required"/></label>
+          </p>
+          <p>
+             <center><input type="submit" name="Login" value="Login"/><label><a href="reg.html">New member</a></label></p></center>
+    </form>
+    <!--end of forms-->
+  </body>
+</html>

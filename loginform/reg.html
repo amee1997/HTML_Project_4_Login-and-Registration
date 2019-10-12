@@ -1,0 +1,97 @@
+<!--HTML program for registration page-->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Registration</title>
+
+      <style>
+          input[type=text]{
+            width:100%;
+            text-align: left;
+            padding: 5px 5px;
+            margin: 5px 0;
+            }
+          input[type=password]{
+            width:100%;
+            text-align: center;
+            padding: 5px 5px;
+            margin: 5px 0;
+            }
+         input[type=submit]{
+            background-color: green;
+            color: white;
+            width: 20%;
+            height: 30%;
+           }
+          label{
+             margin-left: auto;
+             margin-right: auto;
+             width:150%;
+             padding:2px;
+             }
+
+      .login{
+        border:2px solid grey;
+
+        background-color: #E6E6FA;
+        width:30%;
+        margin-right:20;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: 20%;
+        margin-top: 5%
+        }
+
+  </style>
+  </head>
+    <body>
+      <form >
+      <div class="login">
+         <center> <h1>Registration Form</h1></center>
+            <table>
+               <tr>
+                  <td><label>First Name:</label></td>
+                  <td><input type="text" name="fname" /></td>
+               </tr>
+              <tr>
+                 <td><label>Last Name:</label></td>
+                 <td><input type="text" name="lname" /></td>
+              </tr>
+              <tr>
+                 <td><label>User Name:</label></td>
+                 <td><input type="text" name="uname" /></td>
+              </tr>
+              <tr>
+                 <td><label>Password:</label></td>
+                 <td><input type="Password" name="password" /></td>
+              </tr>
+              <tr>
+                  <td><label>Email:</label></td>
+                  <td><input type="text" name="email" /></td>
+             </tr>
+              <tr>
+                  <td><label>Mobile Number:</label></td>
+                  <td><input type="text" name="number" /></td>
+         </table>
+      <p>
+      <center><label>City:
+      <select name="Select">
+
+        <option value="Newyork">Select</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Paris">Paris</option>
+        <option value="london">London</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Singapore">Singapore</option>
+
+      </select>
+    </label>
+  </center>
+    </p>
+    <p><center><input type="submit" name="Register" value="Register" /><a href="index.html">Back to home</a></center>
+      </p>
+    </div>
+      </form>
+    </body>
+  </html>
